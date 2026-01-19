@@ -4,7 +4,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.x-3178C6?logo=typescript&logoColor=white)
 ![License](https://img.shields.io/badge/License-EULA-green)
 
-Live demo: 🔗 [LOKKER](https://lokkerpassword.vercel.app/
+Live demo: 🔗 [LOKKER](https://getlokker.vercel.app/
 
 
 ## Overview
@@ -176,17 +176,17 @@ This ensures:
 [Back to Navigation](#navigation)
 
 - Full application source code and documentation:
-  - 🔗 [GitLab — LOKKER](https://gitlab.com/vadim_nevinskiy/passwords)
+  - 🔗 [GitLab — LOKKER](https://gitlab.com/vadim_nevinskiy/lokker)
   
 - Windows installer: 
-  - 🔗 [LokkerSetup.exe](https://gitlab.com/vadim_nevinskiy/passwords/-/raw/main/dist/LokkerSetup.exe) 
+  - 🔗 [LokkerSetup.exe](https://gitlab.com/vadim_nevinskiy/lokker_installer/-/raw/main/LokkerSetup.exe) 
 
 ---
 
 ## Live Demo
 [Back to Navigation](#navigation)
 
-🔗 [LOKKER](https://lokkerpassword.vercel.app/)
+🔗 [LOKKER](https://getlokker.vercel.app/)
 
 
 ---
@@ -212,8 +212,8 @@ Python / React developer
 
 💻 GitLab:
 
-- Landing Page: https://gitlab.com/vadim_nevinskiy/passvault_page
-- Application: https://gitlab.com/vadim_nevinskiy/passwords
+- Landing Page: https://gitlab.com/vadim_nevinskiy/lokker_landing
+- Application: https://gitlab.com/vadim_nevinskiy/lokker
 - Telegram: https://t.me/+v4X5ohXRyI1kMzEy
 
 📅 Date: January 17, 2026
