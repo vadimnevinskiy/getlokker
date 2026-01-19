@@ -29,9 +29,9 @@ export const CONST_LANGUAGE_FIELD_AT_LOCALSTORAGE: string = "lang"
 export const CONST_APPLICATION_DATA = {
     DEVELOPER_NAME: "Vadim Nevinskiy",
     DEVELOPER_EMAIL: "nevinskiyvadim@gmail.com",
-    WINDOWS_INSTALLER: "https://gitlab.com/vadim_nevinskiy/passwords/-/raw/main/dist/LokkerSetup.exe",
+    WINDOWS_INSTALLER: "https://gitlab.com/vadim_nevinskiy/lokker_installer/-/raw/main/LokkerSetup.exe",
     TG_GROUP: "https://t.me/+v4X5ohXRyI1kMzEy",
-    SOURCE_CODE: "https://gitlab.com/vadim_nevinskiy/passwords",
+    SOURCE_CODE: "https://gitlab.com/vadim_nevinskiy/lokker",
     DESIGNER_NAME: "innamay",
     DESIGNER_CONTACT: "parker_inna@ukr.net",
 }

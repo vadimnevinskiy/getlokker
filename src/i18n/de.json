@@ -62,7 +62,7 @@
     "links": [
       {
         "name": "Windows",
-        "url": "https://gitlab.com/vadim_nevinskiy/passwords/-/raw/main/dist/LokkerSetup.exe"
+        "url": "https://gitlab.com/vadim_nevinskiy/lokker_installer/-/raw/main/LokkerSetup.exe"
       }
     ]
   },
@@ -295,7 +295,7 @@
       {
         "icon": "gitlab",
         "name": "Quellcode auf GitLab ansehen",
-        "url": "https://gitlab.com/vadim_nevinskiy/passwords"
+        "url": "https://gitlab.com/vadim_nevinskiy/lokker"
       }
     ]
   }
