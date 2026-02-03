@@ -4,7 +4,7 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-4.x-3178C6?logo=typescript&logoColor=white)
 ![License](https://img.shields.io/badge/License-EULA-green)
 
-Live demo: 🔗 [LOKKER](https://getlokker.vercel.app/
+Live demo: 🔗 [LOKKER](https://getlokker.vercel.app/)
 
 
 ## Overview
