@@ -16,7 +16,7 @@ const IconLink: FC<IProps> = ({name, url, icon}) => {
             {
                 icon &&
                 <span className={classNames(classes.IconLink__Icon)}>
-                    <SvgIcon name={icon}/>
+                    <SvgIcon size={25} name={icon}/>
                 </span>
             }
 

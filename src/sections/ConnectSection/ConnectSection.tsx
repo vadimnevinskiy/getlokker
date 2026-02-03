@@ -51,14 +51,17 @@ const ConnectSection = () => {
                         {
                             content.contacts_section.links.map((item, index) => {
                                 let url = ""
-                                switch (item.icon) {
-                                    case "telegram":
-                                        url = CONST_APPLICATION_DATA.TG_GROUP;
+                                switch (item.id) {
+                                    case "telegram_group":
+                                        url = CONST_APPLICATION_DATA.TELEGRAM_GROUP;
+                                        break;
+                                    case "developer_telegram":
+                                        url = CONST_APPLICATION_DATA.TELEGRAM_DEVELOPER;
                                         break;
                                     case "email":
                                         url = CONST_APPLICATION_DATA.DEVELOPER_EMAIL;
                                         break;
-                                    case "gitlab":
+                                    case "github":
                                         url = CONST_APPLICATION_DATA.SOURCE_CODE;
                                         break;
                                 }

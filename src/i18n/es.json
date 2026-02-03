@@ -283,19 +283,24 @@
     "contact_title": "Contacto",
     "links": [
       {
+        "id": "telegram_group",
         "icon": "telegram",
-        "name": "Escribir en Telegram",
-        "url": "https://t.me/+v4X5ohXRyI1kMzEy"
+        "name": "Escribir en Telegram"
       },
       {
+        "id": "developer_telegram",
+        "icon": "telegram",
+        "name": "Escribir al desarrollador"
+      },
+      {
+        "id": "email",
         "icon": "email",
-        "name": "Escribir al desarrollador",
-        "url": "mailto:nevinskiyvadim@gmail.com"
+        "name": "Escribir al desarrollador"
       },
       {
-        "icon": "gitlab",
-        "name": "Ver el código fuente en GitLab",
-        "url": "https://gitlab.com/vadim_nevinskiy/lokker"
+        "id": "github",
+        "icon": "github",
+        "name": "Ver el código fuente en GitLab"
       }
     ]
   }

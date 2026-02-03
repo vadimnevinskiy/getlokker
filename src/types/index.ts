@@ -47,9 +47,9 @@ export interface ISecurityCard {
 }
 
 export interface IContactsLink {
+    "id": string,
     "icon": string,
-    "name": string,
-    "url": string
+    "name": string
 }
 export interface IlLink {
     url: string,
