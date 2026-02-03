@@ -16,10 +16,10 @@
     padding: 3px 0;
   }
 
-  @include respond-to($bp_tablet_768) {
+  @include respond-to($bp_mobile_480) {
     span {
-      width: 14px;
-      font-size: 13px;
+      width: 12px;
+      font-size: 12px;
     }
   }
 
