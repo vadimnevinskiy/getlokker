@@ -17,7 +17,7 @@ const BrandNumbers = () => {
 
     return (
         <div ref={containerRef} className={classNames(classes.BrandNumbers)}>
-            <motion.img style={{opacity: smoothFade}} src={`/assets/images/BrandNumbers.svg`} alt={""}/>
+            <motion.img style={{opacity: smoothFade}} src={`${process.env.PUBLIC_URL}/assets/images/BrandNumbers.svg`} alt={""}/>
         </div>
     )
 }

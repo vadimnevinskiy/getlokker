@@ -18,7 +18,7 @@ function App() {
 
     return (
         <div className="App">
-            <BrowserRouter>
+            <BrowserRouter basename="/getlokker">
                 <Routes>
                     <Route path="/" element={<MainPage/>}/>
                     <Route path="/detail" element={<DetailPage/>}/>

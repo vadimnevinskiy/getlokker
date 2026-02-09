@@ -30,7 +30,7 @@ const FeaturesSection = () => {
                             <GradientBorder radius={20} is_glowing={false} key={index}>
                                 <div className={classNames(classes.FeaturesSection__Cards__CardItem)}>
                                     <div className={classNames(classes.FeaturesSection__Cards__CardItem__Icon)}>
-                                        <img src={`/assets/images/${item.icon}`} alt={item.title}/>
+                                        <img src={`${process.env.PUBLIC_URL}/assets/images/${item.icon}`} alt={item.title}/>
                                     </div>
                                     <div className={classNames(classes.FeaturesSection__Cards__CardItem__Content)}>
                                         <div

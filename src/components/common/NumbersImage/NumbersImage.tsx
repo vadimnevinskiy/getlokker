@@ -24,7 +24,7 @@ const NumbersImage: FC<IProps> = ({numbersImage = 'numbers.svg'}) => {
         <div ref={containerRef} className={classNames(classes.NumbersImage)}>
             <motion.div
                 className={classNames(classes.NumbersImage__img)}
-                style={{"backgroundImage": `url("/assets/images/${numbersImage}")`, opacity: smoothFade}}
+                style={{"backgroundImage": `url("${process.env.PUBLIC_URL}/assets/images/${numbersImage}")`, opacity: smoothFade}}
             />
         </div>
     )

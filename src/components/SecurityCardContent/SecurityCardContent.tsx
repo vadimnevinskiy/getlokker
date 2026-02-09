@@ -49,7 +49,7 @@ const SecurityCardContent: FC<IProps> = ({
                         className={classNames(classes.SecurityCardContent__Icon__Image)}
                         style={{scale: scaleImage, opacity: opacity}}
                     >
-                        <img src={`/assets/images/${icon}`} alt={title}/>
+                        <img src={`${process.env.PUBLIC_URL}/assets/images/${icon}`} alt={title}/>
                     </motion.div>
                     <div className={classNames(classes.SecurityCardContent__Icon__Subtitle)}>{subtitle}</div>
                 </div>

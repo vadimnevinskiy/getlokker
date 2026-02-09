@@ -62,7 +62,7 @@ const DescriptionBlock: FC<IProps> = ({
             {
                 image &&
                 <div className={classNames(classes.DescriptionBlock__Image)}>
-                    <img src={`/assets/images/${image}`} alt={"Features"}/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/images/${image}`} alt={"Features"}/>
                 </div>
             }
         </div>

@@ -34,7 +34,7 @@ const Separator: FC<IProps> = ({is_animation = false, mb = 50, padding = 0}) => 
                 scale: smoothScale
             }}
         >
-            <img src={`/assets/images/separator.svg`} alt={""}/>
+            <img src={`${process.env.PUBLIC_URL}/assets/images/separator.svg`} alt={""}/>
         </motion.div>
     )
 }

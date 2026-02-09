@@ -14,7 +14,7 @@ const CopyrightBlock = () => {
             <div className={classNames(classes.CopyrightBlock__Design)}>
                 <div>Design with</div>
                 <div>
-                    <img src={`/assets/images/Heart.svg`} alt=""/>
+                    <img src={`${process.env.PUBLIC_URL}/assets/images/Heart.svg`} alt=""/>
                 </div>
                 <div>by: <a href={`mailto:${CONST_APPLICATION_DATA.DESIGNER_CONTACT}`} target="_blank" rel="noopener noreferrer">{CONST_APPLICATION_DATA.DESIGNER_NAME}</a></div>
             </div>

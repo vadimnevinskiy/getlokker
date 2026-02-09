@@ -28,7 +28,7 @@ const LockImage: FC<IProps> = ({numbersImage, lockImage}) => {
                 <motion.img
                     className={classNames(classes.LockImage__img)}
                     style={{scale: smoothScale}}
-                    src={`/assets/images/${lockImage}`} alt=""/>
+                    src={`${process.env.PUBLIC_URL}/assets/images/${lockImage}`} alt=""/>
             </NumbersWrapper>
         </div>
     )
