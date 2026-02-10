@@ -36,6 +36,20 @@ and clean separation between desktop application logic and web presentation laye
 - [Contacts](#contacts)
 
 ---
+## Deployment
+
+To create builds for GitHub Pages and Vercel server added the `build:gh` and `build:vercel` configurations to the package.json file.
+
+#### 💡 GitHub Pages:
+
+```bash
+    npm run deploy
+```
+
+#### 💡 Vercel settings:
+In the Vercel settings, enter the command `npm run build:vercel` in the default deploy section.
+
+
 
 ## Key Principles
 [Back to Navigation](#navigation)
